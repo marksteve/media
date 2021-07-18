@@ -1,0 +1,7 @@
+tunnel: 873c24a3-409a-4207-a6d6-c7be3651351e
+ingress:
+  - hostname: media.marksteve.com
+    service: http://localhost:8096
+  - hostname: media-qbt.marksteve.com
+    service: http://localhost:8080
+  - service: http_status:404
